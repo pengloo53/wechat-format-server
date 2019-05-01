@@ -14,7 +14,6 @@ var WxRenderer = function (opts) {
   this.buildTheme = function (themeTpl) {
     var mapping = {}
     var base = COPY(themeTpl.BASE, {
-      'font-family': this.opts.fonts,
       'font-size': this.opts.size
     })
     var base_block = COPY(base, {
@@ -63,7 +62,7 @@ var WxRenderer = function (opts) {
       }
       return '<code style="font-size: 90%; opacity: 0.6;">[' + x[0] + ']</code> ' + x[1] + ': <i>'  + x[2] +'</i><br/>'
     })
-    return '<h3 ' + S('h3') + '>References</h3><p ' + S('footnotes') + '>'  + footnoteArray.join('\n') + '</p>'
+    return '<h3 ' + S('h3') + '>引用</h3><p ' + S('footnotes') + '>'  + footnoteArray.join('\n') + '</p>'
   }
 
   this.setOptions = function (newOpts) {
