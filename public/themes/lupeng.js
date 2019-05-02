@@ -1,12 +1,8 @@
 module.exports = {
     BASE: {
-        'text-align': 'left',
-        'color': '#595959',
+        'text-align': 'justify',
         'line-height': '1.55em',
-        'letter-spacing': '0.06em'
-    },
-    BASE_BLOCK: {
-        'margin': '20px 10px'
+        'letter-spacing': '0.06em',
     },
     block: {
         h2: {
@@ -14,7 +10,7 @@ module.exports = {
             'text-align': 'center',
             'font-weight': 'normal',
             'text-align': 'center',
-            'margin': '80px 10px 40px 10px'
+            'margin': '60px 10px 30px 10px'
         },
         h3: {
             'font-weight': 'bold',
@@ -28,17 +24,14 @@ module.exports = {
         blockquote: {
             'color': '#9a9a9a',
             'padding-left': '10px',
-            // 'padding-top': '0.05px',
             'background-color': '#fefefe',
-            'line-height': '1.6',
-            'border-left': '3px solid #dbdbdb',
-            'font-size': '15px',
+            'border-left': '5px solid #dbdbdb',
+            'font-size': '0.9em',
             'margin': '1em 0'
         },
         code: {
             'font-size': '80%',
             'overflow': 'auto',
-            'color': '#333',
             'background': 'rgb(247, 247, 247)',
             'border-radius': '2px',
             'padding': '10px',
@@ -57,11 +50,13 @@ module.exports = {
             'display': 'block',
         },
         ol: {
-            'margin-left': '0',
-            'padding-left': '20px'
+            // 'margin-top': '0',
+            // 'margin-left': '0',
+            'padding-left': '20px',
         },
         ul: {
-            'margin-left': '0',
+            // 'margin-top': '0',
+            // 'margin-left': '0',
             'padding-left': '20px',
             'list-style': 'circle',
         },
@@ -75,14 +70,15 @@ module.exports = {
         listitem: {
             'text-indent': '-20px',
             'display': 'block',
-            'margin': '10px 10px',
+            'margin': '0px 10px',
         },
         codespan: {
-            'font-size': '0.9em',
+            'font-size': '0.8em',
             'color': '#d14',
             'background': '#fefefe',
-            'padding': '2px 5px 0px',
+            'padding': '3px 5px 0px',
             'border': '1px solid #ddd',
+            'margin': '0px 2px',
             'border-radius': '3px',
         },
         link: {
@@ -94,6 +90,9 @@ module.exports = {
         },
         strong: {
             'font-weight': 'bold',
+        },
+        i: {
+            'text-decoration': 'underline'
         },
         table: {
             'border-collapse': 'collapse',

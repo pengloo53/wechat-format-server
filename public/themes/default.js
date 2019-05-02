@@ -2,12 +2,9 @@ module.exports = {
   BASE: {
     'text-align': 'left',
     'color': '#3f3f3f',
-    'line-height': '1.5'
+    'line-height': '1.5',
+    'font-family': "Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif"
   },
-  BASE_BLOCK: {
-    'margin': '20px 10px'
-  },
-  // block element
   block: {
     h2: {
       'font-size': '140%',
@@ -86,6 +83,9 @@ module.exports = {
     },
     strong: {
       'color': '#ff3502'
+    },
+    i: {
+      'font-style': 'italic'
     },
     table: {
       'border-collapse': 'collapse',

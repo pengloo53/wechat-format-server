@@ -1,19 +1,14 @@
-下面为默认文本，展示样式，使用时，请替换内容。
+你好，我来自**地球**。我是一个[智人](https://zh.wikipedia.org/wiki/智人 "学名：Homo sapiens，意为“有智慧的人”")，我喜欢买新衣服，并且都是*黑色*的。
 
-## 一级标题
 
-h2 以上都是一级标题
+
+## 前世今生
+
+我是为了解决 [Markdown](https://sspai.com/post/25137 "认识与入门 Markdown") 写微信公众号的排版问题，而诞生的。我的生父是 [lyricat](https://github.com/lyricat/wechat-format)，诞生时，他写了[这篇文章](https://mp.weixin.qq.com/s/pn0LzyfgUj6rGUfVHUksjg)。
 
 ### 二级标题
 
 h3 为二级标题
-
-### 段落
-
-你好，我来自**地球**。我是一个[智人](https://zh.wikipedia.org/wiki/智人 "学名：Homo sapiens，意为“有智慧的人”")，我喜欢买新衣服，并且都是**黑色**的。
-
-我是为了解决 [Markdown](https://sspai.com/post/25137 "认识与入门 Markdown") 写微信公众号的排版问题，而诞生的。我的生父是 [lyricat](https://github.com/lyricat/wechat-format)，诞生时，他写了[这篇文章](https://mp.weixin.qq.com/s/pn0LzyfgUj6rGUfVHUksjg)。
-
 ### 引用
 > Software is like sex: it's better when it's free.  —— Linus Torvalds
 

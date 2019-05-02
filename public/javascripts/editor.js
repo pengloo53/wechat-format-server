@@ -6,10 +6,11 @@ var app = new Vue({
       aboutOutput: '',
       output: '',
       source: '',
+      previewFontSize: '',
       editorThemes: [
         { label: 'base16-light', value: 'base16-light' }, 
-        { label: 'monokai', value: 'monokai' },
-        { label: 'duotone-light', value: 'duotone-light'}
+        { label: 'duotone-light', value: 'duotone-light'},
+        { label: 'monokai', value: 'monokai' }
       ],
       currentEditorTheme: 'base16-light',
       editor: null,
@@ -70,9 +71,7 @@ var app = new Vue({
       this.refresh()
     },
     sizeChanged: function(size){
-      this.wxRenderer.setOptions({
-        size: size
-      })
+      this.previewFontSize = 'font-size:' + size
       this.refresh()
     },
     themeChanged: function(themeName){

@@ -13,12 +13,7 @@ var WxRenderer = function (opts) {
 
   this.buildTheme = function (themeTpl) {
     var mapping = {}
-    var base = COPY(themeTpl.BASE, {
-      'font-size': this.opts.size
-    })
-    var base_block = COPY(base, {
-      'margin': '20px 10px'
-    })
+    var base = COPY(themeTpl.BASE, {})
     for (var ele in themeTpl.inline) {
       if (themeTpl.inline.hasOwnProperty(ele)) {
         var style = themeTpl.inline[ele]
@@ -34,7 +29,7 @@ var WxRenderer = function (opts) {
         if (ele === 'code') {
           style['font-family'] = FONT_FAMILY_MONO
         }
-        mapping[ele] = COPY(base_block, style)
+        mapping[ele] = COPY(base, style)
       }
     }
     return mapping
@@ -148,8 +143,11 @@ var WxRenderer = function (opts) {
         }
       }
     }
-    renderer.strong = renderer.em = function (text) {
-      return '<strong ' + S('strong') + '>' + text + '</strong>'; 
+    renderer.strong = function (text) {
+      return '<b ' + S('strong') + '>' + text + '</b>'; 
+    }
+    renderer.em = function(text){
+      return '<i ' + S('i') +  '>' + text +'</i>'
     }
     renderer.table = function (header, body) {
       return '<table ' + S('table') + '><thead ' + S('thead') + '>' + header + '</thead><tbody>' + body + '</tbody></table>'; 

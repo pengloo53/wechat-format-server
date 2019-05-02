@@ -60,7 +60,7 @@
           <el-col :span="12" class="preview-wrapper">
             <section>
               <div class="hint">全选复制或<a href="#" @click="copy" class="copy-button">点此复制</a>，然后在公众号编辑器粘贴</div>
-              <div class="preview" contenteditable="true">
+              <div class="preview" contenteditable="true" :style="previewFontSize">
                 <div id="output" v-html="output"></div>
               </div>
             </section>
