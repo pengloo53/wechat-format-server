@@ -2,7 +2,7 @@ module.exports = {
     BASE: {
         'text-align': 'justify',
         'line-height': '1.55em',
-        'letter-spacing': '0.06em',
+        'letter-spacing': '0.05em',
     },
     block: {
         h2: {
@@ -18,8 +18,8 @@ module.exports = {
             'margin': '40px 10px 20px 10px'
         },
         p: {
-            'margin': '10px 10px',
-            'line-height': '1.6'
+            'margin': '5px 10px 20px 10px',
+            'line-height': '1.75'
         },
         blockquote: {
             'color': '#9a9a9a',
