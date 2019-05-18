@@ -61,6 +61,7 @@ module.exports = {
             'list-style': 'circle',
         },
         footnotes: {
+            'text-align': 'left',
             'margin': '10px 10px',
             'font-size': '14px'
         }
