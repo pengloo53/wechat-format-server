@@ -1,7 +1,7 @@
 module.exports = {
     BASE: {
         'text-align': 'justify',
-        'line-height': '1.55em',
+        'line-height': '1.75em',
         'letter-spacing': '0.05em',
     },
     block: {
@@ -18,8 +18,8 @@ module.exports = {
             'margin': '40px 10px 20px 10px'
         },
         p: {
-            'margin': '5px 10px 20px 10px',
-            'line-height': '1.75'
+            'margin': '0 10px 20px 10px',
+            // 'line-height': '1.75'
         },
         blockquote: {
             'color': '#9a9a9a',
@@ -50,13 +50,11 @@ module.exports = {
             'display': 'block',
         },
         ol: {
-            // 'margin-top': '0',
-            // 'margin-left': '0',
+            'margin': '0 10px 20px 10px',
             'padding-left': '20px',
         },
         ul: {
-            // 'margin-top': '0',
-            // 'margin-left': '0',
+            'margin': '0 10px 20px 10px',
             'padding-left': '20px',
             'list-style': 'circle',
         },
