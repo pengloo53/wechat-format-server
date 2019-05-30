@@ -24,7 +24,7 @@ router.get('/', function(req, res, next) {
 // Get default
 router.get('/ajax/default', function(req, res, next){
   var defaultThemeName = req.query.theme;
-  var defaultMDPath = path.join(__dirname, '../public/default-content.md');
+  var defaultMDPath = path.join(__dirname, '../public/lupeng-content.md');
   fs.readFile(defaultMDPath, 'utf8', function(err, data){
     if(err){ throw err;}
     res.send({
