@@ -85,7 +85,7 @@ module.exports = {
         },
         wx_link: {
             'color': '#576b95',
-            'text-decoration': 'none'
+            'text-decoration': 'underline',
         },
         strong: {
             'font-weight': 'bold',
