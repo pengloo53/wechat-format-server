@@ -71,7 +71,7 @@ section {
   box-shadow: 0 0 60px rgba(0,0,0,0.1);
 }
 .preview ul, .preview ol {
-  padding-left: 40px !important;
+  /* padding-left: 40px !important; */
 }
 .CodeMirror {
   height: 100%;
@@ -91,13 +91,13 @@ section {
 }
 .code-snippet__fix {
   word-wrap: break-word !important;
-  ont-size: 14px;
+  font-size: 14px;
   margin: 10px 0;
   display: block;
   color: #333;
   position: relative;
   background-color: rgba(0,0,0,0.03);
-  border: 1px solid #f0f0f0;
+  border: none;
   border-radius: 2px;
   display: flex;
   line-height: 26px;
